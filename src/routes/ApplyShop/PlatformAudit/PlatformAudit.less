@@ -1,0 +1,57 @@
+.platformAudit {
+    .sAudit { 
+        padding: 40px 80px 40px 80px;
+        .top {
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            // border-bottom: 1px solid #eee;
+            .tit {
+                padding-bottom: 3px;
+                &::before {
+                    content: ' ';
+                    position: absolute;
+                    top: 38%;
+                    left: -20px;
+                    display: inline-block;
+                    background: red;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+            }
+            .right {
+                margin-left: 24px;
+                > span {
+                    color: red
+                }
+            }
+        }
+    }
+
+    .submitSucces {
+        padding: 40px 80px 96px 80px;
+    }
+    
+    .auditSucces {
+        padding: 40px 80px 96px 80px;
+        .name {
+            font-size: 24px;
+            color: #1D94D2
+        }
+        .info {
+            p:nth-of-type(1) {
+                margin-top: 76px;
+                margin-bottom: 18px;
+                font-size: 24px;
+            }
+        }
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 20px;
+    }
+}

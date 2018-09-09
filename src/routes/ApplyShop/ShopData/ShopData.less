@@ -1,0 +1,130 @@
+.shopData {
+    .sAudit { 
+        padding: 40px 80px 40px 80px;
+        .top {
+            display: flex;
+            align-items: center;
+            padding-bottom: 10px;
+            margin-bottom: 35px;
+            // border-bottom: 1px solid #eee;
+            .tit {
+                padding-bottom: 3px;
+                &::before {
+                    content: ' ';
+                    position: absolute;
+                    top: 38%;
+                    left: -20px;
+                    display: inline-block;
+                    background: red;
+                    width: 6px;
+                    height: 6px;
+                    border-radius: 6px;
+                }
+            }
+            .right {
+                margin-left: 24px;
+            }
+        }
+
+    }
+    .sshopData {
+        .top {
+            border-bottom: 1px solid #eee;
+            justify-content: flex-start;
+            align-items: center;
+        }
+    
+    }
+
+    // common
+    .tit {
+        position: relative;
+        font-size: 20px;
+    }
+
+    .col {
+        display: flex;
+        align-items: center;
+        font-size: 16px;
+        min-height: 70px;
+        border-bottom: 1px solid #EEEEEE;
+        .left {
+            min-width: 160px;
+            margin-right: 10px;
+        }
+        .right {
+            input {
+                border: none;
+            }
+            .shop {
+                margin-left: 10px;
+                padding: 6px 10px;
+                font-size: 14px;
+                border: 1px solid #a0a0a0
+            }
+            .textArea {
+                width: 678px;
+                height: 201px;
+                background: #f5f5f5;
+            }
+        }
+        .dot {
+            position: relative;
+            &::before {
+                content: '*';
+                position: absolute;
+                color: red;
+                left: -10px;
+            }
+        }
+        .logo {
+            margin: 20px 0;
+            display: flex;
+            > div {
+              margin-right: 10px;  
+            }
+            .logoImg {
+                display: block;
+                width: 178px;
+                height: 108px;
+                background: #eee;
+            }
+            > p {
+                font-size: 12px;
+            }
+            
+        }  
+        .textArea {
+            padding: 30px 0;
+            .text {
+                textarea {
+                    padding: 14px 18px;
+                    width: 678px;
+                    height: 200px;
+                    background: #F5F5F5; 
+                }
+            }
+            > p {
+                font-size: 12px;
+                color: #999;
+                text-align: right;
+            }
+
+        }    
+
+    }
+    .bottom {
+        margin-top: 52px;
+        display: flex;
+        justify-content: flex-end;
+        .btn {
+            margin-right: 60px;
+            display: flex;
+            align-items: center;
+            margin-right: 80px;
+            > button  {
+                font-size: 14px;
+            }
+        }
+    }
+}

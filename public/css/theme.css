@@ -1,0 +1,94 @@
+   a {
+     color: #BA9D66;
+   }
+   a:hover {
+      color: #999;
+    }
+
+   .ant-btn-primary {
+     color: #fff;
+     background-color: #BA9D66;
+     border-color: #BA9D66;
+   }
+   .ant-btn-primary:hover {
+    color: #fff;
+    background-color: #BA9D66;
+    border-color: #BA9D66;
+  }
+   .ant-btn:hover{
+    border-color: #BA9D66;
+    color: #BA9D66;
+   }
+
+   .ant-pagination-item-active {
+     background-color: #BA9D66;
+     border-color: #BA9D66;
+   }
+
+   .ant-pagination-item-active:hover {
+     background-color: #BA9D66;
+     border-color: #BA9D66;
+   }
+   .ant-pagination-item:hover{
+    border-color: #BA9D66;
+    color: #BA9D66;
+   }
+   .ant-pagination-prev .ant-pagination-item-link:hover, .ant-pagination-next .ant-pagination-item-link:hover{
+    border-color: #BA9D66;
+    color: #BA9D66;
+   }
+
+   .ant-btn-background-ghost.ant-btn-primary {
+     color: #BA9D66;
+     background-color: transparent;
+     border-color: #BA9D66;
+   }
+
+   .ant-tabs-nav .ant-tabs-tab-active {
+     color: #BA9D66;
+   }
+
+   .ant-radio-button-wrapper-checked:first-child {
+     border-color: #BA9D66;
+     box-shadow: none !important;
+   }
+
+   .ant-radio-button-wrapper-checked {
+     background: #fff;
+     border-color: #BA9D66;
+     color: #BA9D66;
+     box-shadow: -1px 0 0 0 #BA9D66;
+     z-index: 1;
+   }
+
+   .ant-tabs-ink-bar {
+     z-index: 1;
+     position: absolute;
+     left: 0;
+     bottom: 1px;
+     box-sizing: border-box;
+     height: 2px;
+     background-color: #BA9D66;
+     -ms-transform-origin: 0 0;
+     transform-origin: 0 0;
+   }
+
+   .ant-steps .ant-steps-item.ant-steps-status-finish .ant-steps-head-inner>.ant-steps-icon {
+     color: #BA9D66;
+   }
+
+   .ant-steps .ant-steps-item.ant-steps-status-process .ant-steps-head-inner {
+     border-color: #BA9D66;
+     background-color: #BA9D66;
+   }
+
+   .ant-steps .ant-steps-item.ant-steps-status-finish .ant-steps-head-inner {
+     border-color: #BA9D66;
+     background-color: #fff;
+   }
+
+
+   .ant-btn-primary:hover, .ant-btn-primary:focus {
+    color: #fff;
+    background-color: #BA9D66;
+   }

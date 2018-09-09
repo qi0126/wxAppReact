@@ -1,0 +1,34 @@
+.wrapContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 160px;
+    background: #f8f8f8;
+    .wcont {
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        .slideCont {
+            display: flex;
+            position: absolute; 
+            z-index: 1;
+        }
+        .indexEZJ {
+            position: absolute;
+            z-index: 2;
+            display: flex;
+            align-items: center;
+
+            .slideImg {
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+    }
+    .wbottom {
+        margin-top: 100px;
+    }
+}
